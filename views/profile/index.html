@@ -1,0 +1,13 @@
+<h2>My profile</h2>
+
+<p>User:</p>
+<ul>
+    <li>{{user.username}}</li>
+    <li>{{user.location}}</li>
+    <li>{{user.timezone}}</li>
+</ul>
+
+<p>Tags:</p>
+<ul>
+    <li v-repeat="tags">{{$value}}</li>
+</ul>
